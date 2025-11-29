@@ -1,0 +1,29 @@
+# ------------------------------------------------------------
+# Mudafuka Static Asset Repo — Minimal .gitignore
+# ------------------------------------------------------------
+# Purpose:
+# Keep repo clean of OS/editor junk.
+# DO NOT ignore images, HTML, CSS, or any asset folders.
+# ------------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux temporary files
+*~
+
+# Editor project files
+.vscode/
+.idea/
+
+# Archive files (accidental uploads)
+*.zip
+*.tar
+*.tar.gz
+
+# No build artifacts, no compiled code, and no package managers.
+# Everything else MUST be tracked for CDN immutability.
